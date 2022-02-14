@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* ============
+共通設定
+============ */
+
+body{
+  font-size: 16px;
+  color: #333;
+  line-height: 2;        /*行間のスペース*/
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.characterinfo{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+a:hover{
+  opacity: 0.6;
+}
+
+.inner{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+h1 .title{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.key div p{
+  text-align: center;          /*pタグ中央揃えへ*/
+  color: #fff;                 /*pタグの文字色ホワイトへ*/
+  font-size: 41px;              /*pタグの文字の大きさ41pxへ*/
+  line-height: 1.5;              /*行の高さを1.5へ*/
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  padding: 41px;               /*文字の位置を均等に上下41px空けて配置*/
+}
+
+
+.key .inner div{
+  height: 600px;/* 画像の高さを指定する */
+  display: flex;
+  justify-content: center;            /*pタグの文字の位置を真ん中へ*/
+  align-items: center;                  /*pタグを囲っている背景色ごとセンターへ配置*/
+}
+
+
+/* ===================
+アイフォン画像を小さくする
+====================*/
+.inner img{ 
+    width:  60px;       /* ※縦横を同値に */
+    height: 60px; 
+  max-width: 100%;
+  height: auto;
+  background-size: cover; 
+  background-position: center center; 
+  padding-bottom: 20;
+  padding-left: 20;
+}
+
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+  width: 300px;
+}
+
+body{
+  background-color: #fff;
+  color: #333;
+}
+
+h1{
+  color: #333;
+
+}
+
+span{
+  font-weight: bold;
+  color: #333;
+
+}
+
+
+
+
+/*===============
+ヘッダー
+==============-*/
+
+header{
+  margin-top: 15px;        /*トップ画像の上の余白を指定*/
+  margin-bottom: 15px;  /*トップ画像の下の余白を指定*/
+}
+
+header .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;       /*ナビゲーションを縦並びから横並びにする*/
+}
+
+.nav{
+  text-decoration: none;
+}
+
+/* 
+header nav ul li{
+
+   margin-left: 35px;       ナビゲーションの横並びの間隔のスペースをあける
+} */
+
+header .inner {
+  border-bottom: 1px solid #f0f0f0;            /*Addressの下線*/
+}
+
+
+/*=============
+footerフッター
+=============*/
+footer{
+  background-color: #DEB887;
+  margin-top: 50px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+footer .copy{
+  margin: 0 auto;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer .footer_logo_img{
+  width:  20px;       /* ※縦横を同値に */
+  height: 20px; 
+/* max-width: 100%; */
+height: auto;
+background-size: cover; 
+padding-left: 10;      /*アイコン画像とコピーライトの間の空白*/
+display: inline-block;
+}

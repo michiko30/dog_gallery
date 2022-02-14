@@ -1,0 +1,44 @@
+* {
+  margin:0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  /* padding: 10px 5px; */
+}
+.characterinfo {
+  text-align: center;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  /* font-size: 0;    ヘッダーの項目１、２が消えたため一旦コメントアウト*/
+  text-align: center;
+}
+li {   
+  margin: 5px;
+  display: inline-block;
+}
+
+.item img{ /*絶対書く記述,、画像をテキストの幅に合わせて画像サイズが変わる、デフォルト設定で記述する*/
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;               /*画像を縦に並べたときに上下の空白がなくなる記述*/
+  }
+
+figcaption {
+  padding-top: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #4D4D4D;
+  margin-bottom: 25px;
+}
+
+
+/* ul.menu-group{
+  ;
+} */
